@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7AB2427237BB74B0056B59C /* FSLCPAComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AB2426237BB74B0056B59C /* FSLCPAComponent.m */; };
+		D7AB2428237BB74B0056B59C /* FSLCPAComponent.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7AB2425237BB74B0056B59C /* FSLCPAComponent.h */; };
+		D7AB2434237BDA070056B59C /* FSLCPALog.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AB2433237BDA070056B59C /* FSLCPALog.m */; };
+		D7AB2437237BDA140056B59C /* FSLCPAFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AB2436237BDA140056B59C /* FSLCPAFileManager.m */; };
+		D7AB243A237BF6830056B59C /* FSLCPACameraBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AB2439237BF6830056B59C /* FSLCPACameraBase.m */; };
+		D7AB243F237BF7580056B59C /* FSLCPAPhotoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AB243E237BF7580056B59C /* FSLCPAPhotoCamera.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7AB2420237BB74B0056B59C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D7AB2428237BB74B0056B59C /* FSLCPAComponent.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7AB2422237BB74B0056B59C /* libFSLCPAComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFSLCPAComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AB2425237BB74B0056B59C /* FSLCPAComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLCPAComponent.h; sourceTree = "<group>"; };
+		D7AB2426237BB74B0056B59C /* FSLCPAComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLCPAComponent.m; sourceTree = "<group>"; };
+		D7AB2432237BDA070056B59C /* FSLCPALog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLCPALog.h; sourceTree = "<group>"; };
+		D7AB2433237BDA070056B59C /* FSLCPALog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLCPALog.m; sourceTree = "<group>"; };
+		D7AB2435237BDA140056B59C /* FSLCPAFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLCPAFileManager.h; sourceTree = "<group>"; };
+		D7AB2436237BDA140056B59C /* FSLCPAFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLCPAFileManager.m; sourceTree = "<group>"; };
+		D7AB2438237BF6830056B59C /* FSLCPACameraBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLCPACameraBase.h; sourceTree = "<group>"; };
+		D7AB2439237BF6830056B59C /* FSLCPACameraBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLCPACameraBase.m; sourceTree = "<group>"; };
+		D7AB243D237BF7580056B59C /* FSLCPAPhotoCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLCPAPhotoCamera.h; sourceTree = "<group>"; };
+		D7AB243E237BF7580056B59C /* FSLCPAPhotoCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLCPAPhotoCamera.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7AB241F237BB74B0056B59C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7AB2419237BB74B0056B59C = {
+			isa = PBXGroup;
+			children = (
+				D7AB2424237BB74B0056B59C /* FSLCPAComponent */,
+				D7AB2423237BB74B0056B59C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7AB2423237BB74B0056B59C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7AB2422237BB74B0056B59C /* libFSLCPAComponent.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7AB2424237BB74B0056B59C /* FSLCPAComponent */ = {
+			isa = PBXGroup;
+			children = (
+				D7AB2425237BB74B0056B59C /* FSLCPAComponent.h */,
+				D7AB2426237BB74B0056B59C /* FSLCPAComponent.m */,
+				D7AB242E237BD5CB0056B59C /* Component */,
+			);
+			path = FSLCPAComponent;
+			sourceTree = "<group>";
+		};
+		D7AB242E237BD5CB0056B59C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				D7AB242F237BD97E0056B59C /* Core */,
+				D7AB2430237BD9C80056B59C /* API */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		D7AB242F237BD97E0056B59C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D7AB2438237BF6830056B59C /* FSLCPACameraBase.h */,
+				D7AB2439237BF6830056B59C /* FSLCPACameraBase.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D7AB2430237BD9C80056B59C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D7AB243C237BF6C50056B59C /* PhotoAblum */,
+				D7AB243B237BF6B70056B59C /* Camera */,
+				D7AB2431237BD9E60056B59C /* Tools */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		D7AB2431237BD9E60056B59C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D7AB2435237BDA140056B59C /* FSLCPAFileManager.h */,
+				D7AB2436237BDA140056B59C /* FSLCPAFileManager.m */,
+				D7AB2432237BDA070056B59C /* FSLCPALog.h */,
+				D7AB2433237BDA070056B59C /* FSLCPALog.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		D7AB243B237BF6B70056B59C /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				D7AB243D237BF7580056B59C /* FSLCPAPhotoCamera.h */,
+				D7AB243E237BF7580056B59C /* FSLCPAPhotoCamera.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		D7AB243C237BF6C50056B59C /* PhotoAblum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PhotoAblum;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7AB2421237BB74B0056B59C /* FSLCPAComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AB242B237BB74B0056B59C /* Build configuration list for PBXNativeTarget "FSLCPAComponent" */;
+			buildPhases = (
+				D7AB241E237BB74B0056B59C /* Sources */,
+				D7AB241F237BB74B0056B59C /* Frameworks */,
+				D7AB2420237BB74B0056B59C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSLCPAComponent;
+			productName = FSLCPAComponent;
+			productReference = D7AB2422237BB74B0056B59C /* libFSLCPAComponent.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7AB241A237BB74B0056B59C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = tutu;
+				TargetAttributes = {
+					D7AB2421237BB74B0056B59C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = D7AB241D237BB74B0056B59C /* Build configuration list for PBXProject "FSLCPAComponent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D7AB2419237BB74B0056B59C;
+			productRefGroup = D7AB2423237BB74B0056B59C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7AB2421237BB74B0056B59C /* FSLCPAComponent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7AB241E237BB74B0056B59C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AB2437237BDA140056B59C /* FSLCPAFileManager.m in Sources */,
+				D7AB2427237BB74B0056B59C /* FSLCPAComponent.m in Sources */,
+				D7AB243F237BF7580056B59C /* FSLCPAPhotoCamera.m in Sources */,
+				D7AB243A237BF6830056B59C /* FSLCPACameraBase.m in Sources */,
+				D7AB2434237BDA070056B59C /* FSLCPALog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D7AB2429237BB74B0056B59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7AB242A237BB74B0056B59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7AB242C237BB74B0056B59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U2KRZU6GT;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7AB242D237BB74B0056B59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U2KRZU6GT;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7AB241D237BB74B0056B59C /* Build configuration list for PBXProject "FSLCPAComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AB2429237BB74B0056B59C /* Debug */,
+				D7AB242A237BB74B0056B59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AB242B237BB74B0056B59C /* Build configuration list for PBXNativeTarget "FSLCPAComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AB242C237BB74B0056B59C /* Debug */,
+				D7AB242D237BB74B0056B59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7AB241A237BB74B0056B59C /* Project object */;
+}
